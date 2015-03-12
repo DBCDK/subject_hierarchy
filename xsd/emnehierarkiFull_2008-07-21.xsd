@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Bibliotek.dk's emneoversigt som samlet dokument. Version 2008-07-21. 
+      Namespace ændret i forhold til tidligere versioner -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:emh="http://biblstandard.dk/emnehierarki/namespace/" targetNamespace="http://biblstandard.dk/emnehierarki/namespace/" elementFormDefault="qualified">
+	<xs:element name="ord" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>Opslagsord eller frase som vises for brugeren </xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="ccl" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>CCL-streng der finder relevante poster i bibliotek.dk. Anvender søgekoder som angivet i Praksisregler for søgeveje</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="url" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>URL til ekstern kilde</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="hjaelpetekst" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>Hjælpetekst til brugeren, fx. henvisende tekst til andre relevante opslagsord</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="kommentar" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>Intern DBC-kommentar vedr. søgestrengen, fx. omtrentligt antal hits i bibliotek.dk. Anvendt i forbindelse med udvikling af Emneoversigten</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="visundermenu">
+		<xs:annotation>
+			<xs:documentation>Styring af visning i bibliotek.dk. 0=vises ikke i oversigt; 1=vises i oversigten på højere niveau</xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:boolean">
+				<xs:pattern value="0"/>
+				<xs:pattern value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="type">
+		<xs:annotation>
+			<xs:documentation>Type af term. Liste=Termer på underste niveau, fx. til udfoldning af lister over enkelte lande, arter etc. Link1=Link til litteraturlister.  Link2=Link til litteratursiden.dk: "Noget der ligner"  </xs:documentation>
+		</xs:annotation>
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="liste"/>
+				<xs:enumeration value="link1"/>
+				<xs:enumeration value="link2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="term">
+		<xs:annotation>
+			<xs:documentation>Element der samler opslagsord, hjælpetekst, ccl-streng samt kommentar. Kan også indeholde andre termer (undertermer) eller links</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="emh:ord"/>
+				<xs:element ref="emh:ccl" minOccurs="0"/>
+				<xs:element ref="emh:type" minOccurs="0"/>
+				<xs:element ref="emh:kommentar" minOccurs="0"/>
+				<xs:element ref="emh:hjaelpetekst" minOccurs="0"/>
+				<xs:element ref="emh:visundermenu" minOccurs="0"/>
+				<xs:element ref="emh:term" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="emh:link" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="link">
+		<xs:annotation>
+			<xs:documentation>Henvisning til ekstern kilde</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="emh:ord"/>
+				<xs:element ref="emh:kommentar" minOccurs="0"/>
+				<xs:element ref="emh:hjaelpetekst" minOccurs="0"/>
+				<xs:element ref="emh:visundermenu" minOccurs="0"/>
+				<xs:element ref="emh:type"/>
+				<xs:element ref="emh:url"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="emnehierarki">
+		<xs:annotation>
+			<xs:documentation>Rod-element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="emh:term" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="version" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
