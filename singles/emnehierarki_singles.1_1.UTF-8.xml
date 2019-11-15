@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <emnehierarki version="1.1"
               xmlns="http://biblstandard.dk/emnehierarki/namespace/"
@@ -116,7 +117,7 @@ Dette er en term på øverste niveau</kommentar>
     <overliggende></overliggende>
   </term>
   <term>
-    <ord>Skønlitteratjavascript: document.pressed='1921'; document.forms[0].parentPath.value='0,22,1921'; toggleFolder('folderOpen1921'); document.forms[0].submit();ur og biografier</ord>
+    <ord>Skønlitteratur og biografier</ord>
     <cql></cql>
     <kommentar>ingen ccl laves</kommentar>
     <hjaelpetekst></hjaelpetekst>
@@ -40944,5 +40945,3 @@ Se også Samfundsforhold</hjaelpetekst>
     <url></url>
   </link>
 </emnehierarki>
-<h3>Kan ikke gemme XML data.</h3>
-
