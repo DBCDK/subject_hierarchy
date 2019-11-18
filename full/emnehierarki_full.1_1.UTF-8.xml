@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <emnehierarki version="1.1"
               xmlns="http://biblstandard.dk/emnehierarki/namespace/"
@@ -5614,7 +5613,7 @@ Udfoldes ikke - listeproblematikken</kommentar>
     <term>
       <ord>Børn og unge</ord>
       <cql></cql>
-      <kommentar>Ingen ccl laves. 
+      <kommentar>Ingen ccl laves.
 Udgår: Børnetegninger</kommentar>
       <hjaelpetekst></hjaelpetekst>
       <visundermenu>1</visundermenu>
@@ -9351,7 +9350,7 @@ dk=33.953 og kk=sfd?</kommentar>
       <term>
         <ord>Danmarks historie 1814-1900</ord>
         <cql>((dk = 96.4 and ke = danmark) and ke = historie) not dk = sk</cql>
-        <kommentar>127 poster. 
+        <kommentar>127 poster.
 Emner der udgår: Provisorietiden, 9 poster, Andelsbevægelsen : 8 poster</kommentar>
         <hjaelpetekst></hjaelpetekst>
         <visundermenu>0</visundermenu>
@@ -9436,7 +9435,7 @@ Emner der udgår: Provisorietiden, 9 poster, Andelsbevægelsen : 8 poster</komme
       <term>
         <ord>Danmarks historie 1940-1945</ord>
         <cql>(ok = 96.71 and ke = historie) and ke = danmark</cql>
-        <kommentar>192 poster. - 
+        <kommentar>192 poster. -
 Emner, der udgår: kvindernes stemmeret, påskekrisen 1948, socialreformerne</kommentar>
         <hjaelpetekst></hjaelpetekst>
         <visundermenu>0</visundermenu>
@@ -11182,7 +11181,7 @@ Enkelte præsidenter trækkes ikke ud for sig, men findes samlet i søgesættet<
       <term>
         <ord>1. verdenskrig</ord>
         <cql>dk = 91.91 and df = "1. verdenskrig"</cql>
-        <kommentar>95 poster 
+        <kommentar>95 poster
 Eller: ok=91.91   -  251 poster, heriblandt mange lærebøger</kommentar>
         <hjaelpetekst></hjaelpetekst>
         <visundermenu>1</visundermenu>
@@ -11837,7 +11836,7 @@ Pearl Harbor (findes under stillehavskrigen  - her findes også Hiroshima....)</
         <cql></cql>
         <kommentar>Skal måske starte med Europa og der
 (eksempel på delvis underdeling)</kommentar>
-        <hjaelpetekst>Rejsehåndbøger til lande der ikke er nævnt her: 
+        <hjaelpetekst>Rejsehåndbøger til lande der ikke er nævnt her:
 Brug den almindelige søgeside og skriv landets navn som Emne.</hjaelpetekst>
         <visundermenu>1</visundermenu>
         <term>
@@ -19540,7 +19539,7 @@ dk=70.914   (17 poster)</kommentar>
       <term>
         <ord>Motiver i kunsten</ord>
         <cql>(dk = 7* and (em = motiver or em = symboler)) not (em = *teknik or dk = 74.01)</cql>
-        <kommentar>200 poster  
+        <kommentar>200 poster
 ok=7? og ke=motiver ikke em=?teknik
 142 poster  (der mangler en del, bla. 99.4)</kommentar>
         <hjaelpetekst></hjaelpetekst>
@@ -21249,7 +21248,7 @@ Se også Fantastiske fortællinger og Eventyrlige fortællinger</hjaelpetekst>
         <ord>Fremtidsfortællinger</ord>
         <cql>lds = fremtidsfortællinger and (((ma = bø or ma = bs) or kk = bøk) or kk = sko)</cql>
         <kommentar></kommentar>
-        <hjaelpetekst>Romaner der beskriver et fremtidssamfund. 
+        <hjaelpetekst>Romaner der beskriver et fremtidssamfund.
 Prøv også Science Fiction.</hjaelpetekst>
         <visundermenu>0</visundermenu>
       </term>
