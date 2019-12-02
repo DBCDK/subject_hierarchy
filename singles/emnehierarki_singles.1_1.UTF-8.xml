@@ -128,7 +128,7 @@ Dette er en term på øverste niveau</kommentar>
   <term>
     <ord>Børn og unge</ord>
     <cql></cql>
-    <kommentar>Ingen ccl laves.
+    <kommentar>Ingen ccl laves. 
 Udgår: Børnetegninger</kommentar>
     <hjaelpetekst></hjaelpetekst>
     <sortering>10</sortering>
@@ -2277,7 +2277,7 @@ Udfoldes ikke - listeproblematikken</kommentar>
   <term>
     <ord>Motiver i kunsten</ord>
     <cql>(dk = 7* and (em = motiver or em = symboler)) not (em = *teknik or dk = 74.01)</cql>
-    <kommentar>200 poster
+    <kommentar>200 poster  
 ok=7? og ke=motiver ikke em=?teknik
 142 poster  (der mangler en del, bla. 99.4)</kommentar>
     <hjaelpetekst></hjaelpetekst>
@@ -2935,7 +2935,7 @@ Følger søgestrengen i "Samfund, økonomi og politik"</kommentar>
     <cql></cql>
     <kommentar>Skal måske starte med Europa og der
 (eksempel på delvis underdeling)</kommentar>
-    <hjaelpetekst>Rejsehåndbøger til lande der ikke er nævnt her:
+    <hjaelpetekst>Rejsehåndbøger til lande der ikke er nævnt her: 
 Brug den almindelige søgeside og skriv landets navn som Emne.</hjaelpetekst>
     <sortering>10</sortering>
     <visundermenu>1</visundermenu>
@@ -10967,7 +10967,7 @@ Kan ikke opsplittes yderligere</kommentar>
   <term>
     <ord>Danmarks historie 1814-1900</ord>
     <cql>((dk = 96.4 and ke = danmark) and ke = historie) not dk = sk</cql>
-    <kommentar>127 poster.
+    <kommentar>127 poster. 
 Emner der udgår: Provisorietiden, 9 poster, Andelsbevægelsen : 8 poster</kommentar>
     <hjaelpetekst></hjaelpetekst>
     <sortering>60</sortering>
@@ -10998,7 +10998,7 @@ Emner der udgår: Provisorietiden, 9 poster, Andelsbevægelsen : 8 poster</komme
   <term>
     <ord>Danmarks historie 1940-1945</ord>
     <cql>(ok = 96.71 and ke = historie) and ke = danmark</cql>
-    <kommentar>192 poster. -
+    <kommentar>192 poster. - 
 Emner, der udgår: kvindernes stemmeret, påskekrisen 1948, socialreformerne</kommentar>
     <hjaelpetekst></hjaelpetekst>
     <sortering>80</sortering>
@@ -11792,7 +11792,7 @@ Enkelte præsidenter trækkes ikke ud for sig, men findes samlet i søgesættet<
   </term>
   <term>
     <ord>Donald Trump</ord>
-    <cql>em adj "trump donald j"</cql>
+    <cql>lem="trump donald j"</cql>
     <kommentar></kommentar>
     <hjaelpetekst></hjaelpetekst>
     <sortering>93</sortering>
@@ -15514,7 +15514,7 @@ dk=33.953 og kk=sfd?</kommentar>
   </term>
   <term>
     <ord>Public service</ord>
-    <cql>ti adj "public service"</cql>
+    <cql>em=medier and lem="public service"</cql>
     <kommentar></kommentar>
     <hjaelpetekst></hjaelpetekst>
     <sortering>34</sortering>
@@ -22984,7 +22984,7 @@ Se også Fantastiske fortællinger og Eventyrlige fortællinger</hjaelpetekst>
     <ord>Fremtidsfortællinger</ord>
     <cql>lds = fremtidsfortællinger and (((ma = bø or ma = bs) or kk = bøk) or kk = sko)</cql>
     <kommentar></kommentar>
-    <hjaelpetekst>Romaner der beskriver et fremtidssamfund.
+    <hjaelpetekst>Romaner der beskriver et fremtidssamfund. 
 Prøv også Science Fiction.</hjaelpetekst>
     <sortering>160</sortering>
     <visundermenu>0</visundermenu>
@@ -23535,7 +23535,7 @@ Se også Krimi</hjaelpetekst>
   <term>
     <ord>1. verdenskrig</ord>
     <cql>dk = 91.91 and df = "1. verdenskrig"</cql>
-    <kommentar>95 poster
+    <kommentar>95 poster 
 Eller: ok=91.91   -  251 poster, heriblandt mange lærebøger</kommentar>
     <hjaelpetekst></hjaelpetekst>
     <sortering>10</sortering>
@@ -26029,7 +26029,7 @@ Angst (dde) ikke medtaget</kommentar>
   </term>
   <term>
     <ord>Kvinders rettigheder</ord>
-    <cql>(em=kvinder and em="borgerlige rettigheder") or term.default adj "kvinders rettigheder"</cql>
+    <cql>(em=kvinder and em="borgerlige rettigheder")</cql>
     <kommentar>179 poster</kommentar>
     <hjaelpetekst></hjaelpetekst>
     <sortering>20</sortering>
@@ -26502,7 +26502,7 @@ ke=samtaleteknik gir for meget terapi, ledelse m.v.</kommentar>
   </term>
   <term>
     <ord>Bæredygtige byer</ord>
-    <cql>em adj "bæredygtige byer"</cql>
+    <cql>lem="bæredygtige byer"</cql>
     <kommentar>22 hits</kommentar>
     <hjaelpetekst></hjaelpetekst>
     <sortering>12</sortering>
