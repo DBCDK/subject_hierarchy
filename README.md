@@ -41,4 +41,4 @@ the full and the singles formats.
 
 
 More information about the subject hierarchy can be found at:
-http://www.danbib.dk/index.php?doc=bibdkemnex
+https://danbib.dk/bibliotekdks-emneoversigt-lokale-bibliotekskataloger
