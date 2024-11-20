@@ -1,5 +1,5 @@
-# subject_hierarchy #
-No longer maintained. Subject hierarchy, Copyright(c) 2015, DBC
+# Subject Hierarchy #
+No longer maintained. Copyright(c) 2015, DBC
 
 ## Introduction ##
 Subject hierarchy / Emnehierarki is maintained by DBC and consists of an export
