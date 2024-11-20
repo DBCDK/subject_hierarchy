@@ -39,6 +39,3 @@ has the subjects as a list of separate entities and likewise in a latin-1 and a
 utf-8 encoded version. Finally the 'xsd' directory contains two XSD describing
 the full and the singles formats.
 
-
-More information about the subject hierarchy can be found at:
-https://danbib.dk/bibliotekdks-emneoversigt-lokale-bibliotekskataloger
